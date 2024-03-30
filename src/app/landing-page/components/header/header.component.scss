@@ -1,0 +1,19 @@
+@use '../../../shared/base/variables' as v;
+@use '../../../shared/base/mixins' as m;
+
+.header {
+
+    display: flex;
+    flex-direction: column;
+    padding: v.$separacion 0;
+    align-items: center;
+
+    @include m.desktop {
+      flex-direction: row;
+      justify-content: space-between;
+    }
+
+    &__logo {
+      width: 30rem;
+    }
+}
