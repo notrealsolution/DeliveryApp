@@ -1,0 +1,19 @@
+@use '../../../shared/base/variables' as v;
+@use '../../../shared/base/mixins' as m;
+
+
+.formulario {
+  &__grid {
+    @include m.tablet {
+      @include m.grid (2, v.$separacion);
+    }
+  }
+  &__imagen-contenedor{
+    margin-top: v.$separacion;
+    display: flex;
+    justify-content: center;
+  }
+  &__imagen {
+    width: 30rem;
+  }
+}
