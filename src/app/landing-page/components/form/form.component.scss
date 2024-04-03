@@ -49,5 +49,9 @@
   }
   &__imagen {
     width: 30rem;
+
+    @include m.desktop {
+      width: 100%;
+    }
   }
 }
