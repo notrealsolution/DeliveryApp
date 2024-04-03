@@ -3,6 +3,7 @@ import { CommonModule } from '@angular/common';
 import { BasePageComponent } from './pages/base-page/base-page.component';
 import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
+import { WaveComponent } from './components/wave/wave.component';
 
 
 @NgModule({
@@ -12,7 +13,8 @@ import { FormComponent } from './components/form/form.component';
   declarations: [
     BasePageComponent,
     HeaderComponent,
-    FormComponent
+    FormComponent,
+    WaveComponent
   ],
   exports:[BasePageComponent]
 })
