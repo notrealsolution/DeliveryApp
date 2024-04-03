@@ -1,0 +1,26 @@
+@use '../../../shared/base/variables' as v;
+@use '../../../shared/base/mixins' as m;
+
+.pasos {
+  margin-top: 5rem;
+  &__wave {
+    margin-bottom: -1px;
+  }
+  &__contenido {
+    background-color: v.$primario;
+  }
+  &__heading {
+    text-align: center;
+    color: v.$blanco;
+
+    &--descripcion {
+      font-size: 1.8rem;
+      display: block;
+    }
+  }
+  &__grid {
+    @include m.tablet{
+      @include m.grid(3, v.$separacion);
+    }
+  }
+}
