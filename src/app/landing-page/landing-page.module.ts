@@ -13,10 +13,10 @@ import { TestimonialesComponent } from './components/testimoniales/testimoniales
   ],
   declarations: [
     BasePageComponent,
-    HeaderComponent,
     FormComponent,
+    HeaderComponent,
+    TestimonialesComponent,
     WaveComponent,
-    TestimonialesComponent
   ],
   exports:[BasePageComponent]
 })
