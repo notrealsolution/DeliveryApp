@@ -5,6 +5,7 @@ import { HeaderComponent } from './components/header/header.component';
 import { FormComponent } from './components/form/form.component';
 import { WaveComponent } from './components/wave/wave.component';
 import { TestimonialesComponent } from './components/testimoniales/testimoniales.component';
+import { FavoritosComponent } from './components/favoritos/favoritos.component';
 
 
 @NgModule({
@@ -17,6 +18,7 @@ import { TestimonialesComponent } from './components/testimoniales/testimoniales
     HeaderComponent,
     TestimonialesComponent,
     WaveComponent,
+    FavoritosComponent,
   ],
   exports:[BasePageComponent]
 })
