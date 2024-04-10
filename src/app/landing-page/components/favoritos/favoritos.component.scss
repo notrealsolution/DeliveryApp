@@ -10,8 +10,8 @@
     color: v.$secundario;
   }
   &__grid {
-    @include m.table {
-      @include m.grid(2, 4rem);
+    @include m.tablet {
+      @include m.grid (2, 4rem);
     }
   }
 }
