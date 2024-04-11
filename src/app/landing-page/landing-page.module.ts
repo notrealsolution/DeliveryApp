@@ -6,6 +6,7 @@ import { FormComponent } from './components/form/form.component';
 import { WaveComponent } from './components/wave/wave.component';
 import { TestimonialesComponent } from './components/testimoniales/testimoniales.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
+import { RepartidoresComponent } from './components/repartidores/repartidores.component';
 
 
 @NgModule({
@@ -19,6 +20,7 @@ import { FavoritosComponent } from './components/favoritos/favoritos.component';
     TestimonialesComponent,
     WaveComponent,
     FavoritosComponent,
+    RepartidoresComponent
   ],
   exports:[BasePageComponent]
 })
