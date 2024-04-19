@@ -7,6 +7,7 @@ import { WaveComponent } from './components/wave/wave.component';
 import { TestimonialesComponent } from './components/testimoniales/testimoniales.component';
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { RepartidoresComponent } from './components/repartidores/repartidores.component';
+import { DescargaComponent } from './components/descarga/descarga.component';
 
 
 @NgModule({
@@ -20,7 +21,8 @@ import { RepartidoresComponent } from './components/repartidores/repartidores.co
     TestimonialesComponent,
     WaveComponent,
     FavoritosComponent,
-    RepartidoresComponent
+    RepartidoresComponent,
+    DescargaComponent
   ],
   exports:[BasePageComponent]
 })

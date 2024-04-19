@@ -1,7 +1,7 @@
 import { Component, OnInit } from '@angular/core';
 
 @Component({
-  selector: 'app-descarga',
+  selector: 'landing-page-descarga',
   templateUrl: './descarga.component.html',
   styleUrls: ['./descarga.component.scss']
 })
