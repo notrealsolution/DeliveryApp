@@ -1,2 +1,13 @@
 @use '../../../shared/base/variables' as v;
 @use '../../../shared/base/mixins' as m;
+
+.descarga{
+  background-color: v.$grisClaro;
+  padding: v.$separacion;
+ &__grid{
+  @include m.tablet {
+    @include m.grid(2,v.$separacion);
+  }
+ }
+
+}
