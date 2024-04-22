@@ -8,6 +8,7 @@ import { TestimonialesComponent } from './components/testimoniales/testimoniales
 import { FavoritosComponent } from './components/favoritos/favoritos.component';
 import { RepartidoresComponent } from './components/repartidores/repartidores.component';
 import { DescargaComponent } from './components/descarga/descarga.component';
+import { FooterComponent } from './components/footer/footer.component';
 
 
 @NgModule({
@@ -22,7 +23,8 @@ import { DescargaComponent } from './components/descarga/descarga.component';
     WaveComponent,
     FavoritosComponent,
     RepartidoresComponent,
-    DescargaComponent
+    DescargaComponent,
+    FooterComponent
   ],
   exports:[BasePageComponent]
 })
